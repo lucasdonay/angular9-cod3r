@@ -1,0 +1,23 @@
+.footer {
+  background-color: #7a59c5;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+}
+
+.footer span {
+  font-weight: 400;
+  font-size: 1.9rem;
+}
+
+strong {
+  letter-spacing: 1px;
+}
+
+span .strong {
+  font-weight: 400;
+  font-size: 2rem;
+}

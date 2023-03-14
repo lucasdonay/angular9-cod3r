@@ -1,5 +1,5 @@
 <mat-sidenav-container class="container">
-  <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="70">
+  <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true">
 
     <mat-nav-list>
       <a mat-list-item>
@@ -14,4 +14,7 @@
       </a>
     </mat-nav-list>
   </mat-sidenav>
+  <mat-sidenav-content class="content">
+    <app-product-crud></app-product-crud>
+  </mat-sidenav-content>
 </mat-sidenav-container>

@@ -1,14 +1,14 @@
-.header {
-  background-color: #7a59c5;
+.header { 
   display: flex;
   align-items: center;
   height: 7rem;
   font-size: 2rem;
   font-weight: 400;
+  padding-left: 20px;
 }
 
 .header a {
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
   color: rgb(0, 0, 0);
@@ -16,7 +16,7 @@
   }
 
 .header a:hover {
-  color: white;
+  color: #7a59c5;
 }
 
 .header .logo {
@@ -25,6 +25,7 @@
   margin-top: 4rem;
   box-shadow: 2px 6px 20px black;
   transition: transform .3s ease-in;
+  z-index: 5;
 }
 
 .header .logo:hover{
@@ -32,7 +33,7 @@
 }
 
 .header .title-group{
-padding-left: 2.5rem;
+padding-left: 6.5rem;
 }
 
 .header .title-group i{

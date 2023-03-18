@@ -1,2 +1,14 @@
-<button mat-raised-button (click)="createProduct()" color="primary">Cadastrar</button>
-<button mat-raised-button (click)="cancel()" style="background-color: rgba(0,0,0,.87); color: white;">Cancelar</button>
+<mat-card>
+  <mat-card-title style="margin-bottom: 30px;">Novo Produto</mat-card-title>
+  <form>
+    <mat-form-field style="margin-bottom: 20px;">
+      <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Preço" [(ngModel)]="product.price" name="price">
+    </mat-form-field>
+  </form>
+
+  <button mat-raised-button (click)="createProduct()" color="primary">Cadastrar</button>
+  <button mat-raised-button (click)="cancel()" style="background-color: rgba(0,0,0,.87); color: white;">Cancelar</button>
+</mat-card>

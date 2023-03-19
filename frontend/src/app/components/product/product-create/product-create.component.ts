@@ -30,7 +30,7 @@ export class ProductCreateComponent implements OnInit {
 
   cancel(): void {
     this.productService.showMessage('Voltando pra tela anterior');
-    this.router.navigate(['/']);
+    this.router.navigate(['/products']);
   }
 
 }

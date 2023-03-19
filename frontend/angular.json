@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "frontend": {
-      "projectType": "application",
+      "projectType": "application",     
       "schematics": {
         "@schematics/angular:component": {
           "inlineTemplate": false,
@@ -45,7 +45,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+            "aot": true,           
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -101,7 +101,8 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "frontend:build"
+            "browserTarget": "frontend:build",
+            "i18nLocale": "pt"
           }
         }
       }
